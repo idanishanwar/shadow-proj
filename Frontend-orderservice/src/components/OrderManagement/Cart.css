@@ -1,0 +1,73 @@
+.header{
+    background-color: whitesmoke;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+
+.cartPage{
+    /* background-color: darkgreen; */
+    height: 100%;
+}
+.wholeCart{
+    
+    /* background-color: cornflowerblue; */
+    display: flex;
+}
+
+.cartItems{
+    justify-content: center;
+    margin: 1rem;
+    width: 50%;
+    /* background-color: brown; */
+}
+
+.cartInfo{
+    /* background-color: chartreuse; */
+    width: 40%;
+    margin-left: auto;
+    margin: 2rem;
+
+}
+
+.item{
+    /* background-color: blue; */
+    margin: 1rem;
+}
+
+.styleItem{
+    /* background-color: darkkhaki; */
+    display: flex;
+}
+
+.itemInfo{
+    /* background-color: darkorange; */
+    /* display: flex; */
+    margin-right: 27%;
+}
+
+.imageClass{
+    width: 90%;
+    height: auto; 
+    size: 0;
+    /* background-color: red; */
+}
+
+.indeClass{
+    display: flex;
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    /* margin-right: 20rem; */
+    height: 35px;
+}
+
+.cartBottom{
+    /* background-color: darkgrey; */
+    height: 100%;
+}
+
+.cardClasss{
+    /* background-color: darkred; */
+    width: 110%;
+    height: auto;
+    justify-content: right;
+}

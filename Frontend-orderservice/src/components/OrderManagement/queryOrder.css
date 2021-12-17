@@ -1,0 +1,96 @@
+.main{
+    box-sizing: border-box;
+}
+.form{
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+.col1{
+    margin-left: 240px;
+    margin-top: 20px;
+}
+
+.col2{
+    margin-top: 20px;
+    margin-right: 190px;
+}
+
+.queryOrder{
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    height: 5rem;
+}
+
+.filter{
+    margin-right: auto;
+    margin-right: auto;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: auto;
+    margin-top: 1rem;
+    width: 20%;
+    float: left;
+    padding: 20px;
+}
+
+.formGroup{
+    margin-top: 1rem;
+    margin-left: auto;
+    width: 30%;
+    float: left;
+    padding: 20px;
+}
+
+.formGroup1{
+    margin-top: 1rem;
+    margin-left: auto;
+    width: 30%;
+    float: left;
+    padding: 20px;
+}
+
+.filterButton{
+    margin-left: auto;
+    margin-top: 1rem;
+    margin-right: auto;
+    padding: 20px;
+    width: 20%;
+    float: left;
+    
+}
+
+.filterOrders{
+    display: flex;
+    margin-top: 5rem;
+    flex-wrap: wrap;
+    
+
+}
+.flex-container{
+    padding: 5px;
+    flex: 25%;
+    max-width: 25%;
+}
+@media screen and (max-width: 800px) {
+    .filter, .formGroup, .formGroup1,.filterButton {
+      width: 100%;}}
+
+@media (max-width: 1200px) {
+        .flex-container {
+            flex: 33%;
+            max-width: 33%;
+        }
+      }
+      @media (max-width: 900px) {
+        .flex-container {
+            flex: 50%;
+            max-width: 50%;
+        }
+      }
+      @media (max-width: 600px) {
+        .flex-container {
+            flex: 100%;
+            max-width: 100%;
+        }
+      }

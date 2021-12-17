@@ -1,0 +1,40 @@
+.main{
+    margin-bottom: 15px;
+}
+.form{
+    margin-left: 10px;
+    margin-top: 50px;
+}
+.input1{
+    width: 300px;
+    margin-left: 600px;
+}
+.input3{
+    width: 450px;
+}
+.input4{
+    width: 30px;
+}
+.revorder{
+    margin-left: 100px;
+    
+}
+.btn1{
+
+}
+.btn2{
+    margin-left: 20px;
+}
+.bgcolor1{
+    background-color: lightsalmon
+}
+.bgcolor2{
+    background-color: rgb(247, 208, 38);
+    height: 200px;
+}
+.prodtable{
+    width: 28%;
+}
+.logo{
+  margin-left: 200px;
+}

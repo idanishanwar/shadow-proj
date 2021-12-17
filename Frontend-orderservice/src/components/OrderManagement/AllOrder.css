@@ -1,0 +1,57 @@
+.fullpage{
+    background-color: lightblue;
+    
+    
+}
+
+.orders{
+    background-color: red;
+    margin-top: 50;
+    
+}
+
+/* .roworder{
+  
+    display: flex;
+    background-color: green;
+
+    
+} */
+
+.order{
+    background-color: royalblue;
+    color: brown;
+    display: none;
+    
+}
+
+
+.allorder {
+    background-color: darkkhaki;
+    height: 100%;
+    width: 100%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.paginationBttns{
+    margin-top: 10px;
+}
+
+.addproductbutton {
+    color: indigo;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display: flex;
+    background-color: whitesmoke;
+}
+.heading {
+    align-self: center;
+    justify-self: center;
+    font-size: 190%;
+    margin-left: 40%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: b;
+}
+
+.roworderClass{
+    background-color: brown;
+    justify-content: center;
+}
