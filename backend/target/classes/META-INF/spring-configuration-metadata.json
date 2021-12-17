@@ -1,0 +1,32 @@
+{
+  "groups": [
+    {
+      "name": "datastax.astra",
+      "type": "com.demo.catalogservice.config.DataStaxProperties",
+      "sourceType": "com.demo.catalogservice.config.DataStaxProperties"
+    },
+    {
+      "name": "services",
+      "type": "com.demo.catalogservice.config.RestTempCallConfig",
+      "sourceType": "com.demo.catalogservice.config.RestTempCallConfig"
+    }
+  ],
+  "properties": [
+    {
+      "name": "datastax.astra.secure-connect-bundle",
+      "type": "java.io.File",
+      "sourceType": "com.demo.catalogservice.config.DataStaxProperties"
+    },
+    {
+      "name": "services.inventory-service",
+      "type": "java.lang.String",
+      "sourceType": "com.demo.catalogservice.config.RestTempCallConfig"
+    },
+    {
+      "name": "services.order-service",
+      "type": "java.lang.String",
+      "sourceType": "com.demo.catalogservice.config.RestTempCallConfig"
+    }
+  ],
+  "hints": []
+}

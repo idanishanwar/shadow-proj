@@ -1,0 +1,58 @@
+type Query{
+    productById(id:ID):Product
+    allProduct:[Product]
+}
+type Mutation{
+    createProduct(product:ProductInput!):Product
+    updateProduct(product:ProductInput!):Product
+}
+input ProductInput{
+    id:ID
+    name:String
+    price:Float
+    imageUrl:String
+    category:[String]
+    description:String
+}
+input CategoryInput {
+    id:ID
+    name:String
+    parent:String
+    child:[String]
+    products:[ProductInput]
+}
+input DescriptionInput {
+    id:ID
+    description:String
+    weight:String
+    name:String
+    price:Float
+    imageUrl:String
+    CategoryId:String
+}
+type Product{
+    id:ID
+    name:String
+    price:Float
+    imageUrl:String
+    categoryId:[String]
+    descriptionId:String
+}
+
+type Description {
+    id:ID
+    description:String
+    weight:String
+    name:String
+    price:Float
+    imageUrl:String
+    CategoryId:String
+}
+
+type Category {
+    id:ID
+    name:String
+    parent:String
+    child:[String]
+    products:[Product]
+}
