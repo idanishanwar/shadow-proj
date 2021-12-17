@@ -1,0 +1,18 @@
+{
+  "groups": [
+    {
+      "name": "datastax.astra",
+      "type": "com.datastax.examples.DataStaxAstraProperties",
+      "sourceType": "com.datastax.examples.DataStaxAstraProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "datastax.astra.secure-connect-bundle",
+      "type": "java.io.File",
+      "description": "An absolute path to the Astra secure connect bundle to use.",
+      "sourceType": "com.datastax.examples.DataStaxAstraProperties"
+    }
+  ],
+  "hints": []
+}
